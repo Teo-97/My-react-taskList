@@ -1,0 +1,1 @@
+MealReminder es tu compañero perfecto para planificar y realizar un seguimiento de tus comidas diarias. Con su interfaz intuitiva y funcionalidades poderosas, te ayudará a llevar una vida saludable y mantener tus objetivos de alimentación al alcance de tus manos. ¡No esperes más y únete a la comunidad de usuarios satisfechos de MealReminder!
