@@ -10,9 +10,9 @@ export const Task = (props) => {
   };
   return (
     <ul>
-      {list.map((movie) => (
+      {list.map((TimeFood) => (
         <TaskList
-          name={movie.name}
+          name={TimeFood.name}
           onCheckTimeClick={handleClickTime}
           onCheckTimeClick2={handleClickTime2}
         />
