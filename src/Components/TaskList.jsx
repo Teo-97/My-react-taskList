@@ -1,22 +1,19 @@
 export const TaskList = (props) => {
-  const { name, onCheckTimeClick, onCheckTimeClick2 } = props;
+  const { name, onCheckTimeClick, isFavourite } = props;
   const handleClick = () => {
     console.log(name + "Realizado");
     onCheckTimeClick(name);
   };
-  const Incomplete = () => {
-    console.log(name + " sin realizar");
-    onCheckTimeClick2(name);
-  };
   return (
-    <ul>
-      <li>
-        <article>
-          <h3>{name}</h3>
-          <button onClick={handleClick}>complete</button>
-          <button onClick={Incomplete}>incomplete</button>
-        </article>
-      </li>
-    </ul>
+    <li>
+      <article>
+        <h3>{name}</h3>
+        <label>
+          <button onClick={handleClick}>
+            {isFavourite ? "✅" : "❗️ INCOMLETO"}
+          </button>
+        </label>
+      </article>
+    </li>
   );
 };
